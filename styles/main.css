@@ -1,0 +1,137 @@
+.land-pg{
+    position: relative;
+    background: linear-gradient(90deg, rgba(14,99,101,1) 50%, rgba(255,255,255,1) 50%);
+    height: 85vh;
+    max-height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.land-pg-test{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 748px;
+    margin: 260px 200px 0 0;
+}
+
+.land-pg-titulo{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.land-pg-subtitulo{
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.land-pg-paragraph{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 32px 0 66px 0;
+}
+
+.land-pg-btn{
+    display: flex;
+    width: 236px;
+    background-color: var(--button-color);
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.land-pg-btn:hover{
+    transform: scale(101%);
+}
+
+.land-pg-btn .btn-primario{
+    position: relative;
+    font-size: 24px;
+    padding: 30px 0;
+}
+
+.side-vector{
+    position: relative;
+}
+
+.side-vector::after{
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 0 5px 0 0;
+    bottom: 40px;
+    left: 148px;
+}
+
+.side-vector::before{
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 0 0 0 5px;
+    top: 40px;
+    right: 49px;
+}
+
+
+.about-us{
+    padding: 39px 0 39px 0;
+    background-color: rgb(14,99,101);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.about-us-title{
+    font-size: 48px;
+}
+
+.about-us-div{
+    background-color: var(--white);
+    width: 100px;
+    height: 2px;
+    margin: 38px 0 38px 0;
+}
+
+.about-us-paragraph{
+    font-size: 26px;
+    font-weight: normal;
+    width: 1332px;
+}
+
+.about-smart{
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.1875em;
+}
+
+.about-smart-paragraph{
+    margin: 0 auto;
+    color: black;
+    width: 59em;
+    font-size: 1.375em;
+    padding-top: 1.1875em;
+}
+
+.about-smart-img-bottom{
+    height: 50vh;
+    padding: 60px 0;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-smart-img{
+    height: 100%;
+}
+

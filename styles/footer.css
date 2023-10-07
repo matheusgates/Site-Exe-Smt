@@ -1,0 +1,83 @@
+.rodape{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 79px 39px 79px;
+}
+
+.rodape-exe{
+    width: 250px;   
+}
+
+.rodape-exe-paragraph{
+    font-size: 1.375em;
+    font-weight: 500;
+    padding: 12px 0 28px 0;
+}
+
+.footer-ball{
+    display: flex;
+    position: relative;
+    background-color: var(--background);
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    left: 40px;
+}
+
+.footer-ball::after{
+    content: '';
+    position: absolute;
+    background-color: var(--background);
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    left: 40px;
+}
+
+.footer-ball::before{
+    content: '';
+    position: absolute;
+    background-color: var(--background);
+    width: 31px;
+    height: 31px;
+    right: 40px;
+    border-radius: 50%;
+}
+
+.contatos-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos-title{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 0 8px 0;
+}
+
+.contatos-media{
+    display: flex;
+    align-items: center;
+    color: black;
+    transition: .5s;
+}
+
+.contatos-media:nth-child(3){
+    padding: 9px 0 9px 0;
+}
+
+.contatos-media img{
+    padding: 0 10px 0 0 ;
+}
+
+.contatos-media:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.contatos-paragraph{
+    font-weight: 500;
+    padding: 21px 0 0 0;
+}
+

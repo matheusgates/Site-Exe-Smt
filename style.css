@@ -1,0 +1,38 @@
+@import url("styles/header.css");
+@import url("styles/main.css");
+@import url("styles/footer.css");
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --button-color: #00C49A;
+    --font-nav1: #D7ECD8;
+    --font-nav2: #55828B;
+    --background: #0E6365;
+    --white: #FFFFFF;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'inter';
+    color: var(--white);
+    font-weight: 500;
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 64px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(left, var(--background) 42%, black 42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    padding-top: 19px 0;
+}

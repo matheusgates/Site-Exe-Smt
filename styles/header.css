@@ -1,0 +1,44 @@
+.logo{
+    width: 55.09px;
+    height: 56.37px;
+}
+
+.cabecalho{
+    background: rgb(14,99,101);
+    background: linear-gradient(90deg, rgba(14,99,101,1) 50%, rgba(255,255,255,1) 50%);
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar-itens{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+}
+
+.nav-bar-item{
+    margin-left: 1.5em;
+    color: var(--font-nav1);
+    transition: .3s;
+}
+.nav-bar-item:nth-child(3n){
+    color: var(--font-nav2);
+}
+
+.nav-bar-item:hover{
+    color: var(--button-color);
+    font-weight: bold;
+}
+
+.contact{
+    background-color: var(--button-color);
+    color: var(--white);
+    padding: 0.3em 1.3em;
+    border-radius: 1.5em;
+    transition: .3s;
+}
+.contact:hover{
+    transform: scale(105%);
+}
