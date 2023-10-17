@@ -131,7 +131,19 @@
     text-align: center;
 }
 
-.about-smart-img{
-    height: 100%;
-}
+.swiper {
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
