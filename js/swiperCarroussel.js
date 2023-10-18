@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper", {
       stretch: 0,
       depth: 100,
       modifier: 3,
-      slideShadows: false
+      slideShadows: true
     },
     navigation: {
         nextEl: ".swiper-button-next",
