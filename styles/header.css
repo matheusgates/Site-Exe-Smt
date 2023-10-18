@@ -32,6 +32,10 @@
     font-weight: bold;
 }
 
+.nav-hamburguer{
+    display: none;
+}
+
 .contact{
     background-color: var(--button-color);
     color: var(--white);

@@ -13,16 +13,16 @@
 }
 
 @media (max-width: 768px) {
-    .about-smart{
-        height: 60vh;
-    }
+
 
     .land-pg{
         height: 65vh;
     }
 
     .land-pg-test{
-        margin: 95px 0 0 150px;
+        margin-top: 120px;
+        padding-left: 150px;
+        width: 100vw;
     }
 
     .land-pg-titulo {
@@ -64,6 +64,13 @@
 }
 
 @media (max-width: 425px) {
+    .nav-hamburguer{
+        display: flex;
+        background-color: var(--button-color);
+        height: 1px;
+        width: 10px;
+        justify-content: end;
+    }
     .nav-bar-itens{
         display: none;
     }
@@ -78,6 +85,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .land-pg-paragraph{
@@ -89,9 +97,6 @@
         width: 100vw;
     }
 
-    .about-smart{
-        height: 75vh;
-    }
 
     .rodape{
         justify-content: center;

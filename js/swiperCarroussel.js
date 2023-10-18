@@ -15,9 +15,5 @@ var swiper = new Swiper(".mySwiper", {
       depth: 100,
       modifier: 3,
       slideShadows: true
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
     }
 });
