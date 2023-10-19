@@ -1,20 +1,14 @@
-@media (max-width: 1024px) {
+@media (max-width: 1278px) {
 
     .land-pg-img{
         width: 100vw;
-    }
-    .about-us-paragraph{
-        width: 79vw;
-    }
-
-    .about-smart-paragraph{
-        width: 79vw;
     }
 }
 
 @media (max-width: 820px) {
 
-    .land-pg{
+    .land-pg,
+    .land-pg-img{
         height: 65vh;
     }
 
@@ -56,8 +50,24 @@
         right: 22px;
     }
 
-    .land-pg-img{
-        height: 65vh;
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        display: none;
+    }
+
+    .rodape{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rodape-participations{
+        flex-direction: column;
+    }
+
+    .rodape-realizacao{
+        margin-bottom: 5%;
     }
 
 }
@@ -163,19 +173,4 @@
         height: auto;
         width: 100vw;
     }
-
-    .rodape{
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .footer-ball,
-    .footer-ball::after,
-    .footer-ball::before{
-        display: none;
-    }
-
-
 }

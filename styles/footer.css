@@ -5,44 +5,24 @@
     padding: 39px 79px 39px 79px;
 }
 
-.rodape-exe{
-    width: 250px;   
-}
-
-.rodape-exe-paragraph{
-    font-size: 1.375em;
-    font-weight: 500;
-    padding: 12px 0 28px 0;
-}
-
-.footer-ball{
+.rodape-participations{
     display: flex;
-    position: relative;
-    background-color: var(--background);
-    width: 31px;
-    height: 31px;
-    border-radius: 50%;
-    left: 40px;
+    width: auto;
 }
 
-.footer-ball::after{
-    content: '';
-    position: absolute;
-    background-color: var(--background);
-    width: 31px;
-    height: 31px;
-    border-radius: 50%;
-    left: 40px;
+.rodape-realizacao{
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
-.footer-ball::before{
-    content: '';
-    position: absolute;
-    background-color: var(--background);
-    width: 31px;
-    height: 31px;
-    right: 40px;
-    border-radius: 50%;
+.realizacao-paragraph{
+    font-size: 1.375em;
+    font-weight: 900;
+    font-size: 26px;
+    padding: 12px 0 28px 0;
 }
 
 .contatos-footer{
