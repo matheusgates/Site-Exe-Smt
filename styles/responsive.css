@@ -14,7 +14,6 @@
 
 @media (max-width: 820px) {
 
-
     .land-pg{
         height: 65vh;
     }
@@ -71,6 +70,7 @@
     }
 
     .hamburguer-bt {
+        display: block;
         cursor: pointer;
         height: 31px;
         position: relative;

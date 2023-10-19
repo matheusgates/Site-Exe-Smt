@@ -131,9 +131,8 @@
 
 .swiper {
     margin-top: 22px;
-    width: 70%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    width: auto;
+    padding: 50px 0 50px 0;
   }
 
   .mySwiper{
