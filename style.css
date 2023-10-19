@@ -27,6 +27,7 @@ body {
     color: var(--white);
     font-weight: 500;
     list-style-type: none;
+    overflow-x: hidden;
 }
 
 h3 {

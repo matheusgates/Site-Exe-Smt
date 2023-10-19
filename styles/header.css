@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.burguer-nav-bar{
+    display: none;
+}
+
 .nav-bar-itens{
     display: flex;
     list-style: none;
@@ -32,8 +36,8 @@
     font-weight: bold;
 }
 
-.nav-hamburguer{
-    display: none;
+.bar-burguer-menu{
+    display: block;
 }
 
 .contact{

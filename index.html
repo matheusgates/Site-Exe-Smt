@@ -13,6 +13,11 @@
 <body>
     <header class="cabecalho">
         <a href="#"><img src="img/Logo.svg" class="logo"></a>
+        <div class="hamburguer-bt">
+            <div class="hamburguer-bt__stripe hamburguer-bt__stripe__top"></div>
+            <div class="hamburguer-bt__stripe hamburguer-bt__stripe__middle"></div>
+            <div class="hamburguer-bt__stripe hamburguer-bt__stripe__bottom"></div>
+        </div>
         <nav class="nav-bar">
             <ul class="nav-bar-itens">
                 <a class="nav-bar-item" href="#"><li>Home</li></a>
@@ -20,9 +25,16 @@
                 <a class="nav-bar-item" href="#about-smart"><li>Empreendimentos</li></a>
             </ul>
         </nav>
-        <span class="nav-hamburguer"></span>
         <a href="#"><p class="contact">Contato</p></a>
     </header>
+    <nav class="burguer-nav-bar">
+        <ul class="burguer-nav-bar-itens">
+            <a class="burguer-nav-bar-item burguer-nav-bar-item-green" href="#"><li>Home</li></a>
+            <a class="burguer-nav-bar-item" href="#"><li>Sobre Nós</li></a>
+            <a class="burguer-nav-bar-item burguer-nav-bar-item-green" href="#about-smart"><li>Empreendimentos</li></a>
+            <a class="burguer-nav-bar-item" href="#"><li>Contato</li></a>
+        </ul>
+    </nav>
     <main>
         <article class="land-pg">
             <div class="land-pg-test">
@@ -96,6 +108,8 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script src="js/burguerMenu.js"></script>
 <script src="js/swiperCarroussel.js"></script>
 </html>
