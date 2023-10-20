@@ -129,6 +129,13 @@
     text-align: center;
 }
 
+.about-smart-newslletter{
+    color: #667085;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
 .form{
     display: flex;
     justify-content: center;
