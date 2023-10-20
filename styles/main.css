@@ -129,6 +129,53 @@
     text-align: center;
 }
 
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 100px 360px;
+}
+
+.lbl-input{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.input-xls{
+    width: 344px;
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid #D0D5DD;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    color: black;
+    font-size: 16px;
+}
+
+.input-xls::placeholder{
+    color: #667085;
+    font-size: 16px;
+}
+
+.submit-button{
+    width: 116px;
+    height: 48px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--button-color);
+    border-radius: 8px;
+}
+
 .swiper {
     margin-top: 22px;
     width: auto;

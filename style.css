@@ -34,6 +34,7 @@ h3 {
     font-size: 64px;
     font-weight: 800;
     background: -webkit-linear-gradient(left, var(--background) 42%, black 42%);
+    background-clip: unset;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
