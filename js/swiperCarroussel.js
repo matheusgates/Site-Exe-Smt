@@ -8,7 +8,7 @@ var swiper = new Swiper(".mySwiper", {
       disableOnInteraction: true,
       pauseOnMouseEnter: true
     },
-    slidesPerView: 2,
+    slidesPerView: 3,
     coverflowEffect: {
       rotate: 0,
       stretch: 0,
@@ -19,5 +19,15 @@ var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        
+      },
+      540: {
+        slidesPerView: 2,
+        
+      },
     }
 });

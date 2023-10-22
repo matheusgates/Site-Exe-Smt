@@ -40,6 +40,14 @@
         padding: 15px 0;
     }
 
+    .about-smart-newslletter{
+        display: none;
+    }
+
+    .form{
+        display: none;
+    }
+
     .side-vector::after{
         bottom: 20px;
         left: 94px;      
@@ -73,6 +81,25 @@
 }
 
 @media (max-width: 540px) {
+
+    .about-smart-title{
+        font-size: 44px;
+    }
+
+    .about-us-title{
+        font-size: 44px;
+    }
+
+    .about-us-paragraph{
+        width: 84vw;
+        font-size: 1.1em; 
+    }
+
+    .about-smart-paragraph{
+        width: 84vw;
+        font-size: 1.1em;
+    }
+
     .cabecalho{
         display: flex;
         justify-content: center;
@@ -173,4 +200,9 @@
         height: auto;
         width: 100vw;
     }
+
+    .swiper-wrapper{
+        margin-left: 15px;
+    }
+
 }
