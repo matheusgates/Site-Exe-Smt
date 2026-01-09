@@ -60,7 +60,7 @@
     transform: scale(105%);
 }
 
-.formButton{
+.formButtonn{
     border: 2px solid green;
     padding: 12px 24px;
     color: green;
@@ -70,7 +70,7 @@
     display: inline-block;
 }
 
-.formButton:hover{
+.formButtonn:hover{
     background-color: green;
     color: white;
 }
