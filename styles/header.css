@@ -59,3 +59,18 @@
 .contact:hover{
     transform: scale(105%);
 }
+
+.formButton{
+    border: 2px solid green;
+    padding: 12px 24px;
+    color: green;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.formButton:hover{
+    background-color: green;
+    color: white;
+}

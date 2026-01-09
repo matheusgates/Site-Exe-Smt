@@ -130,11 +130,12 @@
 }
 
 .about-smart-newslletter{
-    color: #667085;
+    color: #000000;
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 25px;
 }
+
 
 .form{
     display: flex;
