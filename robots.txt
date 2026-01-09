@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://www.exesmartcities.com.br//sitemap.xml
