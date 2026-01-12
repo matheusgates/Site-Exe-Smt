@@ -14,7 +14,7 @@
 
     .land-pg-test{
         margin-top: 120px;
-        padding-left: 150px;
+        padding-left: 100px;
         width: 100vw;
     }
 
@@ -40,12 +40,20 @@
         padding: 15px 0;
     }
 
-    .about-smart-newslletter{
-        display: none;
-    }
+   .form{
+    flex-direction: column;
+        width: 97%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+   }
 
-    .form{
-        display: none;
+    .formButtonn{
+        flex-direction: column;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 
     .side-vector::after{
